@@ -1,0 +1,7 @@
+google-generativeai
+fastapi
+uvicorn
+aiohttp
+beautifulsoup4
+lxml
+pydantic
