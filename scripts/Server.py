@@ -38,8 +38,8 @@ if not api_key:
 
 genai.configure(api_key=api_key)
 
-MODEL_CHAT     = "gemini-2.0-flash"
-MODEL_VISION   = "gemini-2.0-flash"   # Gemini 2.0 Flash supports vision natively
+MODEL_CHAT     = "gemini-2.5-flash-lite"
+MODEL_VISION   = "gemini-2.5-flash-lite"   # Gemini 2.0 Flash supports vision natively
 MODEL_FALLBACK = "gemini-1.5-flash"   # Used when primary model hits rate limits
 
 TEMPERATURE  = 0.7
