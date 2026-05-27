@@ -39,9 +39,9 @@ if not api_key:
 genai.configure(api_key=api_key)
 
 # gemini-2.0-flash is stable and free-tier friendly (15 RPM, 1M TPD)
-MODEL_CHAT     = "gemini-2.0-flash"
-MODEL_VISION   = "gemini-2.0-flash"
-MODEL_FALLBACK = "gemini-1.5-flash"
+MODEL_CHAT     = "gemini-2.5-flash"
+MODEL_VISION   = "gemini-2.5-flash"
+MODEL_FALLBACK = "gemini-2.5-flash-lite"
 
 TEMPERATURE = 0.7
 TOP_P       = 0.9
