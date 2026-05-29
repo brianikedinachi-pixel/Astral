@@ -5,4 +5,4 @@ aiohttp
 beautifulsoup4
 lxml
 pydantic
-pillow
+Pillow
