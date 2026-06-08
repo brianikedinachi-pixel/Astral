@@ -1,0 +1,8 @@
+google-generativeai
+fastapi
+uvicorn[standard]
+aiohttp
+beautifulsoup4
+lxml
+pydantic
+Pillow
