@@ -108,7 +108,7 @@ genai.configure(api_key=api_key)
 
 MODEL_CHAT     = "gemini-3.5-flash"
 MODEL_VISION   = "gemini-3.5-flash"
-MODEL_FALLBACK = "gemini-2.0-flash"
+MODEL_FALLBACK = "gemini-2.5-flash-lite"
 
 TEMPERATURE = 0.7
 TOP_P       = 0.9
