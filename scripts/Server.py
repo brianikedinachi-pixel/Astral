@@ -106,10 +106,10 @@ if not api_key:
 
 genai.configure(api_key=api_key)
 
-MODEL_CHAT        = "gemini-2.5-flash"      # Primary — 15 RPM / 1,500 RPD free tier, no billing needed
-MODEL_VISION      = "gemini-2.5-flash"      # supports multimodal
-MODEL_FALLBACK    = "gemini-3.5-flash"      # Fallback 1 — better quality, needs billing for full limits
-MODEL_FALLBACK2   = "gemini-2.5-flash-lite" # Fallback 2 — 30 RPM / 1,500 RPD, last resort
+MODEL_CHAT        = "gemini-3.5-flash"      
+MODEL_VISION      = "gemini-3.5-flash"      
+MODEL_FALLBACK    = "gemini-2.5-flash"      
+MODEL_FALLBACK2   = "gemini-2.5-flash-lite" 
 
 TEMPERATURE = 0.7
 TOP_P       = 0.9
