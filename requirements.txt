@@ -7,3 +7,4 @@ lxml
 pydantic
 Pillow
 python-docx
+edge-tts
