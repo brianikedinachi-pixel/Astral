@@ -37,11 +37,7 @@ app.add_middleware(
     allow_origins=[
         "https://astral-static-97bf.onrender.com",
         "https://astral-static-main.onrender.com",
-        "http://localhost:3000",
-        "http://localhost:5500",
-        "http://localhost:8080",
-        "http://127.0.0.1:5500",
-        "http://127.0.0.1:3000",
+        "astral-static.vercel.app"
     ],
     # Belt-and-suspenders: the static PWA may be redeployed under a different
     # onrender.com / pages.dev / netlify.app subdomain or a custom domain.
