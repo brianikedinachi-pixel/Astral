@@ -35,6 +35,7 @@ app = FastAPI(title="Astral Server")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
+        "*",
         "https://astral-static-97bf.onrender.com",
         "https://astral-static-main.onrender.com",
         "http://localhost:3000",
