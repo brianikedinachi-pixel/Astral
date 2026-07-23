@@ -1,0 +1,12 @@
+google-generativeai
+fastapi
+uvicorn[standard]
+aiohttp
+beautifulsoup4
+lxml
+pydantic
+Pillow
+python-docx
+edge-tts
+faster-whisper
+motor
